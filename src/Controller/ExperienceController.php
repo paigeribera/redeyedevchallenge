@@ -6,10 +6,10 @@ use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\Routing\Annotation\Route;
 use Symfony\Component\HttpFoundation\Response;
 
-class MeController extends AbstractController
+class ExperienceController extends AbstractController
 {
     /**
-     * @Route("/aboutme", name="aboutme")
+     * @Route("/experience", name="experience")
      */
 
     public function index()
@@ -54,7 +54,7 @@ class MeController extends AbstractController
 
 
 
-              <h1>About Me</h1>
+              <h1>Experience</h1>
 
 
           </div>
@@ -62,7 +62,7 @@ class MeController extends AbstractController
         </div>
 
         <footer class="container-fluid text-center">
-          <p>I like reading, running, baking, and playing video games.</p>
+          <p>I have completed two software engineering internships. I am most comfortable with C++ and Python, but I love learning new languages.</p>
         </footer>
 
         </body>

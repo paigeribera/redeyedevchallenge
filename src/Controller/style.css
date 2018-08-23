@@ -1,0 +1,42 @@
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+}
+
+.row.content {
+  height: 450px;
+}
+
+footer {
+  background-color: #555;
+  color: white;
+  padding: 15px;
+}
+.carousel-inner > .item > a > img,
+.carousel-inner > .item > img,
+.img-responsive,
+.thumbnail a > img,
+.thumbnail > img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+  .sidenav {
+    height: auto;
+    padding: 15px;
+  }
+  .row.content {
+    height: auto;
+  }
+}
+
+.fa {
+  padding: 20px;
+  font-size: 50px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
